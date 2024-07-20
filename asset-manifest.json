@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70e1d09a.css",
+    "main.js": "/static/js/main.319eaa92.js",
+    "static/media/mee9.png": "/static/media/mee9.aaddfcb4a1530dee7383.png",
+    "static/media/mysql.svg": "/static/media/mysql.6394bc2572c13c00cc6e48bb91629ab3.svg",
+    "static/media/vscode.svg": "/static/media/vscode.ae90970b7990088d824d8e3a11d9024f.svg",
+    "static/media/arduino.svg": "/static/media/arduino.c93958f291c62ba5d2c33a2b48415d0c.svg",
+    "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/python.svg": "/static/media/python.849d0b2b5f1ec20f077dd267498bd536.svg",
+    "static/media/matlab.svg": "/static/media/matlab.cc6187cc6d9e41996c097a556239f440.svg",
+    "static/media/js.svg": "/static/media/js.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/css.svg": "/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
+    "static/media/git.svg": "/static/media/git.c08353563539c6459b353f29d8dd7bf2.svg",
+    "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
+    "index.html": "/index.html",
+    "static/media/vuejs.svg": "/static/media/vuejs.7bc2f1c7a3dc84d2fcb4aec82ba6363c.svg",
+    "main.70e1d09a.css.map": "/static/css/main.70e1d09a.css.map",
+    "main.319eaa92.js.map": "/static/js/main.319eaa92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70e1d09a.css",
+    "static/js/main.319eaa92.js"
+  ]
+}
