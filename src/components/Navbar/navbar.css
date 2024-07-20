@@ -1,0 +1,71 @@
+.navbar{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0.625rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(0.388rem);
+    -webkit-backdrop-filter: blur(60.388rem);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    height: 4rem;
+    /* overflow: hidden;
+    overflow-y: scroll; */
+}
+#nav-logo {
+    font-size: 3.125rem;
+}
+#diff-color {
+    color: #800080;
+    /* color: blue; */
+}
+.menulist{
+    display: inline-block;
+    list-style: none;
+    margin: 0.625rem 1.25rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: white;
+    /* position: relative; */
+}
+/* #menulist:hover{
+    color: yellow;
+} */
+#contactme{
+    background-color: transparent;
+    color: white;
+    font-size: 1.125rem;
+    border: 0.125rem solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.625rem 0.625rem;
+    border-radius: 2rem;
+    width: 9.375rem;
+}
+#contactmeimg{
+    height: 1.563rem;
+    width: 1.563rem;
+}
+.menulist::after {
+    display: block;
+    content: '';
+    border-bottom: solid 0.188rem purple;  
+    transform: scaleX(0);  
+    transition: transform 0.5s ease-in-out;
+    /* for from center, keep both these commented */
+    /* for left to right uncomment the below*/
+    transform-origin:  0% 50%;
+    /* for right to left uncomment the below*/
+    /* transform-origin:  100% 50%; */
+}
+.menulist:hover::after{
+    transform: scaleX(1);
+}

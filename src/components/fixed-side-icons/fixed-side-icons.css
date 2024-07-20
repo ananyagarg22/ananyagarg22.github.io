@@ -1,0 +1,20 @@
+.side-icons * {
+    width: 40px;
+    height: 40px;
+}
+.side-icons {
+    flex: 1;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50vh;
+    padding-left: 2%;
+    z-index: 3;
+}
+.line {
+    margin-left: 50%;
+    border-left: 0.5vh solid purple;
+    height: 20vh;
+}

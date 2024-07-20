@@ -1,0 +1,48 @@
+#home{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#image{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 6rem;
+    object-fit: cover;
+    
+}
+.Introcontent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.name{
+    color: #800080;
+    /* color: blue; */
+}
+.para{
+    font-size: medium;
+    font-weight: 100;
+}
+@media screen and (max-width:840px) {
+    #image{
+        right: -50vw;
+    }
+}
+/* @media screen and (max-width:840px) {
+    .Introcontent{
+        right: -10vw;
+    }
+} */

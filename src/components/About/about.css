@@ -1,0 +1,92 @@
+
+#about{
+    margin-left: 100px;
+}
+#heading{
+    padding: 50px;
+    font-size: 30px;
+    /* margin-left: 100px ; */
+    /* text-decoration:underline solid 5px purple; */
+}
+#insideaboutsection{
+    padding: 50px;
+    display: flex;
+    font-size: 20px;
+    /* justify-content: center; */
+    /* border: 1px solid #800080; */
+    /* background-color: #80008047; */
+    /* margin-left: 100px; */
+    margin-right: 40px;
+    border-radius: 40px;
+
+}
+#education{
+    padding: 50px;
+    /* display: flex; */
+    /* justify-content: right; */
+    /* align-items: end; */
+}
+#education h2{
+    font-size: 30px;
+}
+#fullname-color, #city-color{
+    color: #800080;
+    font-weight: bolder;
+}
+#class-year{
+    display: flex;
+}
+#education-section{
+    border: 1px solid #800080 ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+#education-content{
+    border-left: 1px solid #800080;
+    padding-right: 40vw;
+
+}
+#education-content #education-section::before{
+    content: '';
+    position: absolute;
+    top: 0.8rem;
+    left: -2.1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #800080 ;
+    border-radius: 50%;
+}
+#skills{
+    padding: 50px;
+} 
+#languages, #frameworks, #tools{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+
+    margin: 20px;
+}
+#language-heading, #framework-heading, #tools-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#skill{
+    border: 2px solid #800080;
+    box-shadow: 2px 2px 2px #800080ad;
+    border-radius: 10%;
+    padding: 50px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#skills h2{
+    font-size: 30px;
+}
