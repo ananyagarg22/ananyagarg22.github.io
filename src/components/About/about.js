@@ -12,6 +12,7 @@ import vuejs from '../../assets/icons/vuejs.svg';
 import git from '../../assets/icons/git.svg';
 import vscode from '../../assets/icons/vscode.svg';
 import arduino from '../../assets/icons/arduino.svg';
+import link from '../../assets/img/link.png';
 
 
 
@@ -27,29 +28,64 @@ const About = () => {
           <br/>
         I have completed my Bachelors degree (B.A.I) in Computer Engineering at Trinity College Dublin. 🍀</p>
       </div>
-      {/* Education Section */}
-      <div id='education'>
-        <h2 id='education-heading'>Education</h2><br/>
-        <div id='education-content'>
-          <div id='education-section'>
-          <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;2021-2023</p><br/>
-          <p><b>Bachelors Degree (B.A.I) - Trinity College Dublin</b></p><br/>
-          <p>Major - Computer Engineering</p><br/>
-          </div>
-          
-          <div id='education-section'>
-          <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;2019-2021</p><br/>
-          <p><b>Bachelors Degree - Thapar Institute of Engineering and Technology</b></p><br/>
-          <p>Major - Computer Engineering</p><br/>
-          </div>
+      <div id='education-and-experience-sections'>
+        {/* Education Section */}
+        <div id='education'>
+          <h2 id='education-heading'>Education</h2><br/>
+          <div id='education-content'>
+            <div id='education-section'>
+            <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;2021-2023</p><br/>
+            <p><b>Bachelors Degree (B.A.I) - Trinity College Dublin</b></p><br/>
+            <p>Major - Computer Engineering</p><br/>
+            </div>
+            
+            <div id='education-section'>
+            <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;2019-2021</p><br/>
+            <p><b>Bachelors Degree - Thapar Institute of Engineering and Technology</b></p><br/>
+            <p>Major - Computer Engineering</p><br/>
+            </div>
 
-          <div id='education-section'>
-          <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;2017-2019</p><br/>
-            <p><b>Delhi Public School, Faridabad</b></p><br/>
-            <p>Senior Secondary Education</p>
-          </div>
-        </div> 
+            <div id='education-section'>
+            <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;2017-2019</p><br/>
+              <p><b>Delhi Public School, Faridabad</b></p><br/>
+              <p>Senior Secondary Education</p>
+            </div>
+          </div> 
+        </div>
+        {/* Experience Section */}
+        <div id='experience'>
+          <h2 id='experience-heading'>Experience</h2><br/>
+          <div id='experience-content'>
+            <div id='experience-section'>
+            <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;Jan 2024 - present</p><br/>
+            <p><b>Frontend Web Development Intern</b></p><br/>
+            <a className='experience-links' href="https://www.truminds.com/home">
+              <p>Truminds Software Systems <img src={link} alt='link-icon' height='15px' width='15px'></img></p><br/>    
+            </a>
+            <ol>• Developed the company Sales AI Analytics website using React and Redux and built multiple website sections from scratch ensuring
+                  improved code reusability and readability by 7%.<br/><br/>
+                  • Implemented data visualization by crafting over 20 interactive graphical visualizations using the Highcharts library.<br/><br/>
+                  • Collaborated with a team to enhance analytics solutions and utilize boilerplate code and official documentation to streamline
+                  development processes, reducing setup time and code complexity by roughly 10%.</ol>
+            </div>
+            
+            <div id='experience-section'>
+            <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;Jun 2022 - July 2022</p><br/>
+            <p><b>Software Developer Intern</b></p><br/>
+            <a className='experience-links' href="https://www.sidhiinternational.com/">
+              <p>Sidhi International Metalloys<img src={link} alt='link-icon' height='15px' width='15px'></img></p><br/>   
+            </a>
+            <p>
+              • Utilised various algorithms for quality control to detect cracks in an aluminum sheet by applying transfer learning using pretrained
+              ResNet-50.<br/><br/>
+              • Conducted intensive training, validation, and testing and also used one-shot learning to find similarities between images using Siamese
+              networks.
+            </p>
+            </div>
+          </div> 
+        </div>
       </div>
+
       <div id='skills'>
         <h2>Skillset</h2>
         <div id='skill-content'>

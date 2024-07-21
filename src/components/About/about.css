@@ -20,13 +20,13 @@
     border-radius: 40px;
 
 }
-#education{
+#education, #experience{
     padding: 50px;
     /* display: flex; */
     /* justify-content: right; */
     /* align-items: end; */
 }
-#education h2{
+#education h2, #experience h2{
     font-size: 30px;
 }
 #fullname-color, #city-color{
@@ -36,14 +36,14 @@
 #class-year{
     display: flex;
 }
-#education-section{
+#education-section, #experience-section{
     border: 1px solid #800080 ;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     position: relative;
 }
-#education-content{
+#education-content, #experience-content{
     border-left: 1px solid #800080;
     padding-right: 40vw;
 
@@ -58,6 +58,24 @@
     background: #800080 ;
     border-radius: 50%;
 }
+#experience-content #experience-section::before{
+    content: '';
+    position: absolute;
+    top: 0.8rem;
+    left: -2.1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #800080 ;
+    border-radius: 50%;
+}
+.experience-links{
+    color: white;
+}
+/* #education-and-experience-sections{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* padding: auto; */
+/* } */ 
 #skills{
     padding: 50px;
 } 
