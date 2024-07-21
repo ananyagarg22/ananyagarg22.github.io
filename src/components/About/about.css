@@ -22,10 +22,17 @@
 }
 #education, #experience{
     padding: 50px;
+    flex: 1;
     /* display: flex; */
     /* justify-content: right; */
     /* align-items: end; */
 }
+/* #education{
+    flex: 1;
+}
+#experience{
+    flex: 2;
+} */
 #education h2, #experience h2{
     font-size: 30px;
 }
@@ -45,7 +52,7 @@
 }
 #education-content, #experience-content{
     border-left: 1px solid #800080;
-    padding-right: 40vw;
+    /* padding-right: 40vw; */
 
 }
 #education-content #education-section::before{
@@ -71,11 +78,13 @@
 .experience-links{
     color: white;
 }
-/* #education-and-experience-sections{
+#education-and-experience-sections{
     display: flex;
-    /* justify-content: space-evenly; */
-    /* padding: auto; */
-/* } */ 
+}
+#tech-stack{
+    display: flex;
+    align-items: center;
+}
 #skills{
     padding: 50px;
 } 

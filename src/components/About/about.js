@@ -13,6 +13,8 @@ import git from '../../assets/icons/git.svg';
 import vscode from '../../assets/icons/vscode.svg';
 import arduino from '../../assets/icons/arduino.svg';
 import link from '../../assets/img/link.png';
+import tensorflow from '../../assets/icons/tensorflow.svg';
+import jupyter from '../../assets/icons/jupyter.svg';
 
 
 
@@ -60,27 +62,25 @@ const About = () => {
             <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;Jan 2024 - present</p><br/>
             <p><b>Frontend Web Development Intern</b></p><br/>
             <a className='experience-links' href="https://www.truminds.com/home">
-              <p>Truminds Software Systems <img src={link} alt='link-icon' height='15px' width='15px'></img></p><br/>    
+              <p>Truminds Software Systems&nbsp; <img src={link} alt='link-icon' height='15px' width='15px'></img></p><br/>    
             </a>
-            <ol>• Developed the company Sales AI Analytics website using React and Redux and built multiple website sections from scratch ensuring
-                  improved code reusability and readability by 7%.<br/><br/>
-                  • Implemented data visualization by crafting over 20 interactive graphical visualizations using the Highcharts library.<br/><br/>
-                  • Collaborated with a team to enhance analytics solutions and utilize boilerplate code and official documentation to streamline
-                  development processes, reducing setup time and code complexity by roughly 10%.</ol>
+            <div id='tech-stack'> &nbsp;
+              <img src={react} alt='react-link' height='35px' width='35px'></img>&nbsp; &nbsp; 
+              <img src={jsicon} alt='js-icon' height='35px' width='35px'></img>&nbsp; &nbsp;
+              <img src={git} alt='git-icon' height='35px' width='35px'></img></div>
             </div>
             
             <div id='experience-section'>
-            <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;Jun 2022 - July 2022</p><br/>
-            <p><b>Software Developer Intern</b></p><br/>
-            <a className='experience-links' href="https://www.sidhiinternational.com/">
-              <p>Sidhi International Metalloys<img src={link} alt='link-icon' height='15px' width='15px'></img></p><br/>   
-            </a>
-            <p>
-              • Utilised various algorithms for quality control to detect cracks in an aluminum sheet by applying transfer learning using pretrained
-              ResNet-50.<br/><br/>
-              • Conducted intensive training, validation, and testing and also used one-shot learning to find similarities between images using Siamese
-              networks.
-            </p>
+              <p id='class-year'><img src={calendar} alt='calender-icon' width='20px' height='20px'></img>&nbsp;Jun 2022 - July 2022</p><br/>
+              <p><b>Software Developer Intern</b></p><br/>
+              <a className='experience-links' href="https://www.sidhiinternational.com/">
+                <p>Sidhi International Metalloys&nbsp; <img src={link} alt='link-icon' height='15px' width='15px'></img></p><br/>   
+              </a>
+              <div id='tech-stack'> &nbsp;
+                <img src={pythonicon} alt='python-icon' height='35px' width='35px'></img>&nbsp; &nbsp; 
+                <img src={tensorflow} alt='tensorflow-icon' height='35px' width='35px'></img>&nbsp; &nbsp;
+                <img src={jupyter} alt='jupyter-icon' height='35px' width='35px'></img>
+              </div>
             </div>
           </div> 
         </div>
