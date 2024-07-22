@@ -1,11 +1,17 @@
 import React from 'react'
 import'./navbar.css'
-import {Link} from 'react-scroll';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import file from '../../assets/img/file.png';
-
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+
+  const navigator = useNavigate();
+
+  const navigateToResume = () => {
+    navigator('/resume');
+  } 
+
   return (
     <nav className='navbar'>
         <div id="nav-logo">
@@ -23,16 +29,10 @@ const Navbar = () => {
             <li><a href="#Certificates">Certificates</a></li>
             <li><a href="#Contact">Contact</a></li> */}
         </div>
-          <button id='contactme'>
+        <button id='contactme' onClick={navigateToResume}>
           <img src={file} alt='' id='contactmeimg'/>
-
-        <Link 
-          to="myresume"
-          style={{textDecoration: 'none', color: 'white'}}
-        >
           <p>Resume</p>
-        </Link>
-          </button>
+        </button>
     </nav>
   )
 }

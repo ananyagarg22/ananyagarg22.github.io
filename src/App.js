@@ -5,13 +5,11 @@ import Resume from './components/Resume/Resume';
 
 const routes = createBrowserRouter([
   { path:'/', element: <MainPage/> },
-  { path:'/myresume', element: <Resume/> },
+  { path:'/resume', element: <Resume/> },
 ]);
 
 function App() {
-  return (
-      <RouterProvider router={routes}/>
-  )
+  return (<RouterProvider router={routes}/>)
 }
 
 export default App;

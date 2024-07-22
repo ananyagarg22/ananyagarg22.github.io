@@ -1,3 +1,55 @@
 #projects{
-    padding: 100px;
+    padding: 150px;
+}
+#projects h2{
+    font-size: 30px;
+}
+#listofprojects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+#speciality {
+    font-size: small;
+    color:#800080;
+    font-weight: bold;
+}
+#project {
+    box-shadow: 3px 3px 3px #800080;
+    height: 35vh;
+    width: 23vw;
+    border: 2px solid #800080;
+    margin: 1%;
+    padding: 1%;
+    padding-top: 0%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.3s;
+}
+#project:hover {
+    transform: translateY(-5px);
+}
+#action-icons {
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#redirect-icon{
+    display: flex;
+    justify-content: right;
+}
+#redirect {
+    transition: transform 0.5s;
+}
+#redirect:hover {
+    transform: scale(1.2);
+}
+#project-title {
+    font-weight: bolder;
+}
+#tech {
+    margin: 8px;
 }
