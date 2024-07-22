@@ -1,6 +1,6 @@
 import React from 'react'
 import'./navbar.css'
-// import {Link} from 'react-scroll';
+import {Link} from 'react-scroll';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import file from '../../assets/img/file.png';
 
@@ -23,10 +23,16 @@ const Navbar = () => {
             <li><a href="#Certificates">Certificates</a></li>
             <li><a href="#Contact">Contact</a></li> */}
         </div>
-        <button id='contactme'>
-        <img src={file} alt='' id='contactmeimg'/>
-        Resume
-        </button>
+          <button id='contactme'>
+          <img src={file} alt='' id='contactmeimg'/>
+
+        <Link 
+          to="myresume"
+          style={{textDecoration: 'none', color: 'white'}}
+        >
+          <p>Resume</p>
+        </Link>
+          </button>
     </nav>
   )
 }
