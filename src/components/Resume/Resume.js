@@ -6,10 +6,11 @@ import './resume.css';
 import { useState, useEffect } from 'react';
 import Navbar from '../../components/Navbar/navbar';
 // import FixedSideIcons from '../../components/Fixed-side-icons/Fixed-side-icons';
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url,
-).toString();
+// pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+//   'pdfjs-dist/build/pdf.worker.min.mjs',
+//   import.meta.url,
+// ).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
 function Resume() {
   const [width, setWidth] = useState(1200);
