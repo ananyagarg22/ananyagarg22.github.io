@@ -1,0 +1,23 @@
+#download-button a{
+  background-color: #800080;
+  color: white;
+  width: fit-content;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #8000805c;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+}
+#download-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#resume-section{
+  height: fit-content;
+}

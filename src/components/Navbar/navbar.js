@@ -3,6 +3,7 @@ import'./navbar.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import file from '../../assets/img/file.png';
 import { useNavigate } from 'react-router-dom';
+import download from '../../assets/img/download.png';
 
 const Navbar = () => {
 
@@ -30,7 +31,7 @@ const Navbar = () => {
             <li><a href="#Contact">Contact</a></li> */}
         </div>
         <button id='contactme' onClick={navigateToResume}>
-          <img src={file} alt='' id='contactmeimg'/>
+          <img src={download} alt='' id='contactmeimg'/>
           <p>Resume</p>
         </button>
     </nav>

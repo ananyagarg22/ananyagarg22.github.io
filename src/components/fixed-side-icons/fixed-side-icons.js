@@ -1,4 +1,4 @@
-import'./fixed-side-icons.css';
+import'./Fixed-side-icons.css';
 import github_logo from '../../assets/img/github-logo.png';
 import instagram_logo from '../../assets/img/instagram-logo.png';
 import linkedin_logo from '../../assets/img/linkedin-logo.png';

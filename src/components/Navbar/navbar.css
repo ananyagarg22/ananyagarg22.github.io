@@ -46,14 +46,14 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0.625rem 0.625rem;
-    border-radius: 2rem;
+    padding: 0.425rem 0.625rem;
+    border-radius: 1rem;
     width: 9.375rem;
     cursor: pointer;
 }
 #contactmeimg{
-    height: 1.563rem;
-    width: 1.563rem;
+    height: 1.363rem;
+    width: 1.363rem;
 }
 .menulist::after {
     display: block;
