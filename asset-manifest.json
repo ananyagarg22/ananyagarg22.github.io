@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ce54986.css",
-    "main.js": "/static/js/main.123bafe3.js",
+    "main.css": "/static/css/main.434c52ba.css",
+    "main.js": "/static/js/main.d169d5e9.js",
+    "static/media/pdf.worker.min.mjs": "/static/media/pdf.worker.min.2a80f2eaab1e610c5a40.mjs",
     "static/media/mee9.png": "/static/media/mee9.aaddfcb4a1530dee7383.png",
+    "static/media/AnanyaGarg_CV.pdf": "/static/media/AnanyaGarg_CV.60f014b8675433e4e36a.pdf",
     "static/media/redirect.png": "/static/media/redirect.96d9ff65546c50dc2d59.png",
     "static/media/link.png": "/static/media/link.d1aad04f8de22083bb27.png",
     "static/media/mysql.svg": "/static/media/mysql.6394bc2572c13c00cc6e48bb91629ab3.svg",
@@ -19,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/vuejs.svg": "/static/media/vuejs.7bc2f1c7a3dc84d2fcb4aec82ba6363c.svg",
     "static/media/tensorflow.svg": "/static/media/tensorflow.d134800405cb87bd8c207af58dff37cd.svg",
-    "main.9ce54986.css.map": "/static/css/main.9ce54986.css.map",
-    "main.123bafe3.js.map": "/static/js/main.123bafe3.js.map"
+    "main.434c52ba.css.map": "/static/css/main.434c52ba.css.map",
+    "main.d169d5e9.js.map": "/static/js/main.d169d5e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce54986.css",
-    "static/js/main.123bafe3.js"
+    "static/css/main.434c52ba.css",
+    "static/js/main.d169d5e9.js"
   ]
 }
