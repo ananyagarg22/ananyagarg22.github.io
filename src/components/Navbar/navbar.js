@@ -1,7 +1,7 @@
 import React from 'react'
 import'./navbar.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import file from '../../assets/img/file.png';
+// import file from '../../assets/img/file.png';
 import { useNavigate } from 'react-router-dom';
 import download from '../../assets/img/download.png';
 

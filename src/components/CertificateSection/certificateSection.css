@@ -1,3 +1,27 @@
 #certificate{
-    padding: 100px;
+    padding: 150px;
+    padding-top: 50px;
+}
+#certificate h2{
+    font-size: 30px;
+}
+#listofcertificates{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+#certificates{
+    box-shadow: 3px 3px 3px #800080;
+    height: 35vh;
+    width: 23vw;
+    border: 2px solid #800080;
+    margin: 1%;
+    padding: 1%;
+    padding-top: 0%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.3s;
+    background-color: #80008030;
 }
