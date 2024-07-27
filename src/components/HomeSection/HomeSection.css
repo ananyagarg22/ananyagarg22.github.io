@@ -1,4 +1,4 @@
-#home{
+#home-section{
     height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
@@ -30,7 +30,6 @@
 }
 .name{
     color: #800080;
-    /* color: blue; */
 }
 .para{
     font-size: medium;

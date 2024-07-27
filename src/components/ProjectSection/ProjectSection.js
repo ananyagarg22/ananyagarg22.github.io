@@ -1,5 +1,5 @@
+import './ProjectSection.css';
 import React from 'react';
-import './projects.css';
 import pythonicon from '../../assets/icons/python.svg';
 import jupytericon from '../../assets/icons/jupyter.svg';
 import foldericon from '../../assets/img/folder.png'
@@ -12,8 +12,7 @@ import arduino from '../../assets/icons/arduino.svg';
 import react from '../../assets/icons/react.svg';
 import js from '../../assets/icons/js.svg';
 
-
-function projects() {
+function ProjectSection() {
   return (
     <div id='projects'>
       <div>
@@ -64,8 +63,8 @@ function Project ({speciality, title, link, tech_stack}) {
   return(
     <div id="project">
       <div id="action-icons">
-        <div id='folder-icon'> <img src={foldericon} height='30px' width='30px'></img> </div>
-        <div id='redirect-icon'><a href={link}><img id='redirect' src={redirecticon} height='20px' width='20px'></img></a></div>
+        <div id='folder-icon'> <img src={foldericon} height='30px' width='30px' alt=''></img> </div>
+        <div id='redirect-icon'><a href={link}><img id='redirect' src={redirecticon} height='20px' width='20px' alt=''></img></a></div>
       </div>
       <div id="project-title">{title}</div>
       <div id="project-tech-stack">
@@ -82,4 +81,4 @@ function Project ({speciality, title, link, tech_stack}) {
   )
 }
 
-export default projects
+export default ProjectSection

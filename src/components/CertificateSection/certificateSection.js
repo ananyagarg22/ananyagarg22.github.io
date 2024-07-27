@@ -1,10 +1,10 @@
 import React from 'react'
-import './certificateSection.css';
-import { certificatedata } from './certificatedata';
-import { Document, Page, pdfjs } from 'react-pdf';
-import { useState, useEffect } from 'react';
+import './CertificateSection.css';
+import { certificatedata } from './certificateData';
+// import { Document, Page, pdfjs } from 'react-pdf';
+// import { useState, useEffect } from 'react';
 import share from '../../assets/icons/share.png';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
 function CertificateSection() {
   
@@ -26,11 +26,11 @@ function CertificateSection() {
 
 }
 function Certificate ({certificate}) {  
-  const [width, setWidth] = useState(1200);
+  // const [width, setWidth] = useState(1200);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+  // useEffect(() => {
+  //   setWidth(window.innerWidth);
+  // }, []);
   // const certificateImgPath = '../CertificateImages/'+certificate.file_name;
 
   const loadPDF = (certi) => {

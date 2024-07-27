@@ -1,8 +1,8 @@
-.side-icons * {
+.fixed-leftside * {
     width: 40px;
     height: 40px;
 }
-.side-icons {
+.fixed-leftside {
     flex: 1;
     position: fixed;
     height: 100vh;
@@ -13,7 +13,7 @@
     padding-left: 2%;
     z-index: 3;
 }
-.line {
+.fixed-side-line {
     margin-left: 50%;
     border-left: 0.5vh solid purple;
     height: 20vh;

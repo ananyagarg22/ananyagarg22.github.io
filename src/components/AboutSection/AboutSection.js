@@ -1,5 +1,5 @@
+import './AboutSection.css'
 import React from 'react'
-import './about.css'
 import calendar from '.././../assets/img/calendar.png';
 import pythonicon from '../../assets/icons/python.svg';
 import jsicon from '../../assets/icons/js.svg';
@@ -16,15 +16,12 @@ import link from '../../assets/img/link.png';
 import tensorflow from '../../assets/icons/tensorflow.svg';
 import jupyter from '../../assets/icons/jupyter.svg';
 
-
-
-const About = () => {
+const AboutSection = () => {
   return (
     <div id='about'>
       <div id='heading'>
         About Me
       </div>
-
       <div id='insideaboutsection'>
         <p>Hi Everyone, I am <span id='fullname-color'>Ananya Garg</span> from <span id='city-color'>Faridabad, India</span>.
           <br/>
@@ -85,7 +82,7 @@ const About = () => {
           </div> 
         </div>
       </div>
-
+      {/* Skills Section */}
       <div id='skills'>
         <h2>Skillset</h2>
         <div id='skill-content'>
@@ -128,5 +125,4 @@ const SkillComponent =  ({icon,alt,name}) => {
   )
 }
 
-
-export default About
+export default AboutSection

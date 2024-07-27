@@ -26,7 +26,7 @@
     color: #800080;
     /* color: blue; */
 }
-.menulist{
+.menuitem{
     display: inline-block;
     list-style: none;
     margin: 0.625rem 1.25rem;
@@ -55,7 +55,7 @@
     height: 1.363rem;
     width: 1.363rem;
 }
-.menulist::after {
+.menuitem::after {
     display: block;
     content: '';
     border-bottom: solid 0.188rem purple;  
@@ -67,6 +67,6 @@
     /* for right to left uncomment the below*/
     /* transform-origin:  100% 50%; */
 }
-.menulist:hover::after{
+.menuitem:hover::after{
     transform: scaleX(1);
 }
