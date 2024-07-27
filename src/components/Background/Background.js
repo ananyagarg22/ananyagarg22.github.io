@@ -92,7 +92,7 @@ const Background = () => {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.9,
+                        value: 1,
                     },
                     shape: {
                         type: "circle",
