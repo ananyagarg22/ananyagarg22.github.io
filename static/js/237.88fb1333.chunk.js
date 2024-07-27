@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio_v2=self.webpackChunkportfolio_v2||[]).push([[237],{237:(e,p,o)=>{e.exports=o.p+"static/media/DS.d9e6c6904801047185fd.pdf"}}]);

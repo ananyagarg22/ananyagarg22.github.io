@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio_v2=self.webpackChunkportfolio_v2||[]).push([[759],{759:(p,t,a)=>{p.exports=a.p+"static/media/PratigyaAbhiyan.69f57d2b472994bb3db9.pdf"}}]);
