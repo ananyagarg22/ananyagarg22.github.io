@@ -5,6 +5,7 @@ import resume from '../../assets/AnanyaGarg_CV.pdf';
 import './Resume.css';
 import { useState, useEffect } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Background from '../Background/Background';
 // import FixedSideIcons from '../../components/Fixed-side-icons/Fixed-side-icons';
 // pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 //   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -21,6 +22,7 @@ function Resume() {
 
   return (
     <div>
+      <Background/>
       <Navbar/>
       {/* <FixedSideIcons/> */}
       <div id='download-section'>

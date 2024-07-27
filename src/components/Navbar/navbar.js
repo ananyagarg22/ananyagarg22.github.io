@@ -19,7 +19,7 @@ const Navbar = () => {
                 <span id="diff-color">A</span>nanya<span id="diff-color">.</span>
         </div>
         <div className='menu'>
-            <AnchorLink className='menuitem' href='#home'>Home</AnchorLink>
+            <AnchorLink className='menuitem' href='#home-section'>Home</AnchorLink>
             <AnchorLink className='menuitem' href='#about'>About Me</AnchorLink>
             <AnchorLink className='menuitem' href='#projects'>Projects</AnchorLink>
             <AnchorLink className='menuitem' href='#certificate'>Certificates</AnchorLink>
