@@ -1,5 +1,5 @@
 #projects{
-    padding: 150px;
+    padding: 70px 150px;
 }
 #projects h2{
     font-size: 30px;
@@ -8,6 +8,7 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: left;
+    padding-top: 50px;
 }
 #speciality {
     font-size: small;

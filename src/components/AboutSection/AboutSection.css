@@ -2,8 +2,10 @@
     margin-left: 100px;
 }
 #heading{
-    padding: 50px;
+    /* padding: 50px; */
+    padding-left: 50px;
     font-size: 30px;
+    padding-top: 70px;
     /* margin-left: 100px ; */
     /* text-decoration:underline solid 5px purple; */
 }
