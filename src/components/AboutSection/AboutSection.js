@@ -23,7 +23,7 @@ const AboutSection = () => {
         About Me
       </div>
       <div id='insideaboutsection'>
-        <p>Hi Everyone, I am <span id='fullname-color'>Ananya Garg</span> from <span id='city-color'>Faridabad, India</span>.
+        <p>Hi There, I am <span id='fullname-color'>Ananya Garg</span> from <span id='city-color'>Faridabad, India</span>.
           <br/>
         I have completed my Bachelors degree (B.A.I) in Computer Engineering at Trinity College Dublin. 🍀</p>
       </div>

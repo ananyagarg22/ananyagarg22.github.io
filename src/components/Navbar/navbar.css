@@ -23,7 +23,7 @@
     font-size: 3.125rem;
 }
 #diff-color {
-    color: #800080;
+    color: var(--primary-color);
 }
 .menuitem{
     display: inline-block;
@@ -41,7 +41,7 @@
     background-color: transparent;
     color: white;
     font-size: 1.125rem;
-    border: 0.125rem solid purple;
+    border: 0.125rem solid var(--primary-color);
     /* background-color: #8000806a; */
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@
     border-radius: 1rem;
     /* width: 9.375rem; */
     /* width: 11.9rem; */
-    width: 12vw;
+    width: 13vw;
 
     cursor: pointer;
 }
@@ -59,7 +59,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom:none ;
-    background-color: #8000806a ;
+    background-color: var(--secondary-color);
 }
 #resume-options hr{
     width: 8vw;
@@ -73,18 +73,24 @@
     /* right: 2rem; */
     list-style: none;
     padding: 10px;
-    background-color: #8000806a;
-    border: 0.125rem solid #800080;
+    background-color: var(--secondary-color);
+    border: 0.125rem solid var(--primary-color);
     border-radius: 1rem;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-top: none;
-    width: 12vw;
+    width: 13vw;
 }
 #resume-options button{
     border: none;
     padding: 10px;
-
+    position: relative;
+}
+#resume-options button:hover{
+    /* left: 10px; */
+    /* bottom: 5px; */
+    /* text-shadow: 3px 3px #800080; */
+    font-weight: bold;
 }
 #resume-options button a{
     color: white;

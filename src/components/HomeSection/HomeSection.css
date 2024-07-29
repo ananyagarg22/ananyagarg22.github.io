@@ -30,7 +30,7 @@
     font-weight: 100;
 }
 .name{
-    color: #800080;
+    color: var(--primary-color);
 }
 .para{
     font-size: medium;

@@ -37,21 +37,21 @@
     font-size: 30px;
 }
 #fullname-color, #city-color{
-    color: #800080;
+    color: var(--primary-color);
     font-weight: bolder;
 }
 #class-year{
     display: flex;
 }
 #education-section, #experience-section{
-    border: 1px solid #800080 ;
+    border: 1px solid var(--primary-color);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     position: relative;
 }
 #education-content, #experience-content{
-    border-left: 1px solid #800080;
+    border-left: 1px solid var(--primary-color);
     /* padding-right: 40vw; */
 }
 #education-content #education-section::before{
@@ -61,7 +61,7 @@
     left: -2.1rem;
     width: 1.5rem;
     height: 1.5rem;
-    background: #800080 ;
+    background: var(--primary-color);
     border-radius: 50%;
 }
 #experience-content #experience-section::before{
@@ -71,7 +71,7 @@
     left: -2.1rem;
     width: 1.5rem;
     height: 1.5rem;
-    background: #800080 ;
+    background: var(--primary-color);
     border-radius: 50%;
 }
 .experience-links{
@@ -100,7 +100,7 @@
     font-size: 20px;
 }
 #skill{
-    border: 2px solid #800080;
+    border: 2px solid var(--primary-color);
     box-shadow: 2px 2px 2px #800080ad;
     border-radius: 10%;
     padding: 50px;
@@ -115,4 +115,8 @@
 }
 #skills h2{
     font-size: 30px;
+}
+#skill:hover{
+    font-weight: bold;
+    /* box-shadow: 30px 30px  red; */
 }

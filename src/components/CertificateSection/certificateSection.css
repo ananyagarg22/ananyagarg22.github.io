@@ -10,12 +10,13 @@
     flex-wrap: wrap;
     justify-content: left;
     padding-top: 50px;
+    /* overflow-x: scroll; */
 }
 #certificates{
-    box-shadow: 3px 3px 3px #800080;
+    box-shadow: 3px 3px 3px var(--primary-color);
     height: 35vh;
     width: 23vw;
-    border: 2px solid #800080;
+    border: 2px solid var(--primary-color);
     margin: 1%;
     padding: 1%;
     padding-top: 0%;
@@ -24,5 +25,5 @@
     flex-direction: column;
     justify-content: space-evenly;
     transition: all 0.3s;
-    background-color: #80008030;
+    background-color: var(--secondary-color);
 }

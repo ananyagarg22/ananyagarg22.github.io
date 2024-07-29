@@ -15,6 +15,6 @@
 }
 .fixed-side-line {
     margin-left: 50%;
-    border-left: 0.5vh solid purple;
+    border-left: 0.5vh solid var(--primary-color);
     height: 20vh;
 }

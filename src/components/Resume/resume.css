@@ -1,11 +1,11 @@
 #download-button a{
-  background-color: #800080;
+  background-color: var(--primary-color);
   color: white;
   width: fit-content;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-  background-color: #8000805c;
+  background-color: var(--secondary-color);
   display: flex;
   align-items: center;
   /* justify-content: center; */
