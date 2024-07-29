@@ -2,7 +2,7 @@
 export const certificatedata = [ 
 {
     "name":"OCI Generative AI Certification",
-    "file_name": "OCI Generative AI Certification.pdf",
+    "file_name": "OCIGenerativeAICertification.pdf",
     "cat": [
         "Online Course",
         "Generative AI"
@@ -106,4 +106,17 @@ export const certificatedata = [
     "cert_id": "1xrtg8lQmT",
     "other_keywords":[]
 },
+{
+    "name":"Certificate of Membership",
+    "file_name": "PratigyaAbhiyan.pdf",
+    "cat": [
+        "College Society"
+    ],
+    "issuing_auth": [
+        "Thapar Institute of Engineering and Technology"
+    ],
+    "date": "2021-03-03",
+    "cert_id": "1xrtg8lQmT",
+    "other_keywords":[]
+}
 ]

@@ -1,75 +1,66 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './CertificateSection.css';
 import { certificatedata } from './certificateData';
-// import { Document, Page, pdfjs } from 'react-pdf';
-// import { useState, useEffect } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
 import share from '../../assets/icons/share.png';
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
 function CertificateSection() {
-  
   return (
     <div id='certificate'>
       <div>
         <h2>Certificates</h2>
         <div id='listofcertificates'>
-          {
-            certificatedata.map(certificate => (
-              <Certificate certificate={certificate}></Certificate>
-            ))
-          }
-
+          {certificatedata.map(certificate => (
+            <Certificate key={certificate.file_name} certificate={certificate} />
+          ))}
         </div>
       </div>
     </div>
-  )
-
+  );
 }
-function Certificate ({certificate}) {  
-  // const [width, setWidth] = useState(1200);
 
-  // useEffect(() => {
-  //   setWidth(window.innerWidth);
-  // }, []);
-  // const certificateImgPath = '../CertificateImages/'+certificate.file_name;
+function Certificate({ certificate }) {
+  const [pdfFile, setPdfFile] = useState(null);
 
-  const loadPDF = (certi) => {
-    return import(`./CertificateImages/${certi}`).then(module => module.default);
-  };
-  return(
+  useEffect(() => {
+    const loadPDF = async (certi) => {
+      const module = await import(`./CertificateImages/${certi}`);
+      setPdfFile(module.default);
+    };
+
+    loadPDF(certificate.file_name);
+  }, [certificate.file_name]);
+
+  return (
     <div id="certificates">
-      <div id="certificate-icons">
-        <div id='share-icon'> 
-          <a href={loadPDF(certificate.file_name)}>
-            <img src={share} height='30px' width='30px'alt=''></img>
-          </a> 
-        </div>
-        {/* <div id='redirect-icon'><a href={link}><img id='redirect' src={redirecticon} height='20px' width='20px'></img></a></div> */}
-      </div>
       <div id="certificate-title">{certificate.name}</div>
-      {/* Inserting image of certi */}
-      {/* <Document file= {loadPDF(certificate.file_name)}>
-            <Page size='A4' pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false}
-              scale={width > 786 ? 1.7 : 0.6}
-            /> 
-          </Document> */}
-      {/* <div id="project-tech-stack">
-        {
-          tech_stack.map(tech => (
-            <img id='tech' src={tech} alt='' width='30px' height='30px'></img>
-          ))
-        }
-      </div> */}
+      {pdfFile ? (
+        <Document file={pdfFile}>
+          <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} scale={0.25}/>
+        </Document>
+      ) : (
+        <div>Loading PDF...</div>
+      )}
       <div id="certificate-date">
         {certificate.date}
       </div>
       <div id='certificate-issuing-auth'>
         {certificate.issuing_auth.map(authority => (
-          <span>{authority}</span>
+          <span key={authority}>{authority}</span>
         ))}
       </div>
+      <div id="certificate-icons">
+        <div id='open-icon'>
+          <a href={pdfFile} target="_blank" rel="noreferrer">
+            Open 
+            <img src={share} height='25px' width='25px' alt='' />
+          </a>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default CertificateSection
+export default CertificateSection;
