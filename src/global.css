@@ -4,3 +4,16 @@
     --secondary-color:#80008030;
     /* --secondary-color: rgba(249, 123, 249, 0.303); */
   } 
+
+
+  :root::-webkit-scrollbar {
+    width: 5px;
+    /* height: 7px; */
+  }
+  :root::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+  }
+  :root::-webkit-scrollbar-track {
+    background: transparent;
+  }
