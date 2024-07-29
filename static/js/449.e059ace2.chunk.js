@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio_v2=self.webpackChunkportfolio_v2||[]).push([[449],{449:(e,t,i)=>{e.exports=i.p+"static/media/OCIGenerativeAICertification.dd1477992546e5ad5282.pdf"}}]);
