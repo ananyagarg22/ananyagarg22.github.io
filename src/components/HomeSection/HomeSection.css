@@ -1,48 +1,104 @@
-#home-section{
-    /* height: calc(100vh - 4rem); */
+#home-section {
     height: 100vh;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 3rem;
 }
-#image{
+
+#image {
     position: absolute;
     z-index: 1;
-    right: 0;
+    right: 2rem;
     top: 6rem;
-    object-fit: cover;
-    
 }
-.Introcontent{
-    height: 100vh;
-    width: 100vw;
+
+#image img {
+    max-width: 100%;
+    width: 30rem;
+    height: auto;
+}
+
+.Introcontent {
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    z-index: 2;
 }
-.hello{
-    font-size: 1.75rem;
+
+.hello {
+    font-size: 2.75rem;
     font-weight: 100;
 }
-.name{
+
+.name {
     color: var(--primary-color);
 }
-.para{
+
+.para {
     font-size: medium;
     font-weight: 100;
 }
-@media screen and (max-width:840px) {
-    #image{
-        right: -50vw;
+
+/* Responsive Design */
+@media screen and (max-width: 840px) {
+    #home-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #image {
+        position: static;
+        margin-top: 2rem;
+        width: 80vw;
+        /* height: 0;
+        width: 0; */
+    }
+
+    .Introcontent {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .hello {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 1.75rem;
+    }
+
+    .para {
+        font-size: 1rem;
     }
 }
-/* @media screen and (max-width:840px) {
-    .Introcontent{
-        right: -10vw;
+
+@media screen and (max-width: 600px) {
+    .Introcontent {
+        font-size: 1.2rem;
     }
-} */
+
+    .hello {
+        font-size: 1.2rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .para {
+        font-size: 0.9rem;
+    }
+}

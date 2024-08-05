@@ -86,7 +86,7 @@ const AboutSection = () => {
       <div id='skills'>
         <h2>Skillset</h2>
         <div id='skill-content'>
-            <h3 id='language-heading'>Languages</h3>
+          <h3 id='language-heading'>Languages</h3>
           <div id='languages'>
             <SkillComponent icon={pythonicon} alt='python-icon' name='Python'/>
             <SkillComponent icon={jsicon} alt='js-icon' name='Javascript'/>
