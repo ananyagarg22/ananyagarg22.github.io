@@ -11,6 +11,8 @@ import git from '../../assets/icons/git.svg';
 import arduino from '../../assets/icons/arduino.svg';
 import react from '../../assets/icons/react.svg';
 import js from '../../assets/icons/js.svg';
+import flask from '../../assets/icons/flask.svg';
+import chatgpt from '../../assets/icons/chatgpt.png';
 
 function ProjectSection() {
   return (
@@ -26,7 +28,7 @@ function ProjectSection() {
           >  
           </Project>
           <Project 
-            speciality="API usage"
+            speciality="OpenWeather API usage"
             title="OpenWeather API based Weather Application"
             link="https://github.com/ananyagarg22/internet-application-assignment-1" 
             tech_stack={[vuejs, htmlicon, cssicon]}
@@ -51,6 +53,13 @@ function ProjectSection() {
             title="Personal Portfolio Website"
             link="https://github.com/ananyagarg22/ananyagarg22.github.io" 
             tech_stack={[react, js, htmlicon, cssicon, git]}
+          >  
+          </Project>
+          <Project 
+            speciality="Full Stack RAG Application"
+            title="Home Maintenance Rag System"
+            link="https://github.com/ananyagarg22/home-maintenance-rag-system" 
+            tech_stack={[flask, pythonicon, react, chatgpt]}
           >  
           </Project>
         </div>
