@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.112a154d.css",
-    "main.js": "/static/js/main.bdc746f8.js",
+    "main.css": "/static/css/main.94c3476b.css",
+    "main.js": "/static/js/main.f2bcf38a.js",
     "static/js/990.23fd650c.chunk.js": "/static/js/990.23fd650c.chunk.js",
     "static/js/237.88fb1333.chunk.js": "/static/js/237.88fb1333.chunk.js",
     "static/js/821.e9dd8fdc.chunk.js": "/static/js/821.e9dd8fdc.chunk.js",
+    "static/js/463.d61e465a.chunk.js": "/static/js/463.d61e465a.chunk.js",
     "static/js/130.de77020e.chunk.js": "/static/js/130.de77020e.chunk.js",
     "static/js/449.e059ace2.chunk.js": "/static/js/449.e059ace2.chunk.js",
     "static/js/932.8febefc3.chunk.js": "/static/js/932.8febefc3.chunk.js",
@@ -19,12 +20,15 @@
     "static/media/OS.pdf": "/static/media/OS.0061e1872f4490a20111.pdf",
     "static/media/OCIGenerativeAICertification.pdf": "/static/media/OCIGenerativeAICertification.dd1477992546e5ad5282.pdf",
     "static/media/Rotaract.pdf": "/static/media/Rotaract.1eee012638970f1929f3.pdf",
-    "static/media/mee9.png": "/static/media/mee9.aaddfcb4a1530dee7383.png",
+    "static/media/GoogleAIEssentialsCertificate.pdf": "/static/media/GoogleAIEssentialsCertificate.3959bf063e24f395208a.pdf",
+    "static/media/mee9.png": "/static/media/mee9.dcc785febd1aa543dad7.png",
     "static/media/AnanyaGarg_CV.pdf": "/static/media/AnanyaGarg_CV.60f014b8675433e4e36a.pdf",
     "static/media/AnanyaGarg_nontechCV.pdf": "/static/media/AnanyaGarg_nontechCV.ff3fdd3d536269669d04.pdf",
     "static/media/JPMC Software Engineering Job Simulation Certification.pdf": "/static/media/JPMC Software Engineering Job Simulation Certification.35defa967b2d88a16dba.pdf",
+    "static/media/chatgpt.png": "/static/media/chatgpt.209805f954d065927de3.png",
     "static/media/redirect.png": "/static/media/redirect.96d9ff65546c50dc2d59.png",
     "static/media/link.png": "/static/media/link.d1aad04f8de22083bb27.png",
+    "static/media/flask.svg": "/static/media/flask.002124b876aacb4794b09269c9c70a61.svg",
     "static/media/mysql.svg": "/static/media/mysql.6394bc2572c13c00cc6e48bb91629ab3.svg",
     "static/media/jupyter.svg": "/static/media/jupyter.a30a052e52442056febf9c1307c62807.svg",
     "static/media/vscode.svg": "/static/media/vscode.ae90970b7990088d824d8e3a11d9024f.svg",
@@ -39,11 +43,11 @@
     "index.html": "/index.html",
     "static/media/vuejs.svg": "/static/media/vuejs.7bc2f1c7a3dc84d2fcb4aec82ba6363c.svg",
     "static/media/tensorflow.svg": "/static/media/tensorflow.d134800405cb87bd8c207af58dff37cd.svg",
-    "main.112a154d.css.map": "/static/css/main.112a154d.css.map",
-    "main.bdc746f8.js.map": "/static/js/main.bdc746f8.js.map"
+    "main.94c3476b.css.map": "/static/css/main.94c3476b.css.map",
+    "main.f2bcf38a.js.map": "/static/js/main.f2bcf38a.js.map"
   },
   "entrypoints": [
-    "static/css/main.112a154d.css",
-    "static/js/main.bdc746f8.js"
+    "static/css/main.94c3476b.css",
+    "static/js/main.f2bcf38a.js"
   ]
 }
