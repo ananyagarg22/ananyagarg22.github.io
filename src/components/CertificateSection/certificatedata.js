@@ -1,6 +1,19 @@
 
 export const certificatedata = [ 
 {
+    "name":"Google AI Essentials Certification",
+    "file_name": "GoogleAIEssentialsCertificate.pdf",
+    "cat": [
+        "Online Course"
+    ],
+    "issuing_auth": [
+        "Coursera"
+    ],
+    "date": "2024-09-30",
+    "cert_id": "NZTA4Z39ENNG",
+    "other_keywords":[]
+},
+{
     "name":"OCI Generative AI Certification",
     "file_name": "OCIGenerativeAICertification.pdf",
     "cat": [

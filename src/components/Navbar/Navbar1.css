@@ -1,0 +1,175 @@
+.navbar {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0.625rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(0.388rem);
+    -webkit-backdrop-filter: blur(60.388rem);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    height: 4rem;
+}
+
+#nav-logo {
+    font-size: 3.125rem;
+}
+
+#diff-color {
+    color: var(--primary-color);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu.open {
+    display: block;
+}
+
+.menuitem {
+    display: inline-block;
+    list-style: none;
+    margin: 0.625rem 1.25rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: white;
+}
+
+#contactme {
+    background-color: transparent;
+    color: white;
+    font-size: 1.125rem;
+    border: 0.125rem solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.425rem 0.625rem;
+    border-radius: 1rem;
+    width: 13vw;
+    cursor: pointer;
+}
+#Ananya{
+    /* background-color: black; */
+    /* background-color: var(--secondary-colorx); */
+    color: white;
+    width: 100%;
+}
+#contactme:hover {
+    /* border-bottom-left-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+    /* border-bottom: none; */
+    /* background-color: var(--secondary-color); */
+}
+
+/* #resume-options hr {
+    width: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+} */
+
+#resume-options {
+    /* position: absolute;
+    top: 3.57rem;
+    list-style: none; */
+    /* padding: 10px; */
+    /* background-color: var(--secondary-color); */
+    /* border: 0.125rem solid var(--primary-color); */
+    /* border-radius: 1rem; */
+    /* border-top-left-radius: 0; */
+    /* border-top-right-radius: 0; */
+    /* border-top: none; */
+    /* width: 13vw; */
+}
+
+/* #resume-options button {
+    border: none;
+    padding: 10px;
+    position: relative;
+} */
+
+#resume-options button:hover {
+    font-weight: bold;
+}
+
+#resume-options button a {
+    color: white;
+    font-size: large;
+}
+
+#contactmeimg {
+    height: 1rem;
+    width: 1rem;
+}
+
+/* .menuitem::after {
+    display: block;
+    content: '';
+    border-bottom: solid 0.188rem purple;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: 0% 50%;
+} */
+
+/* .menuitem:hover::after {
+    transform: scaleX(1);
+} */
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#resume-style{
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    width: 100%;
+
+
+}
+/* Responsive Design */
+@media (max-width: 900px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: var(--secondary-color);
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menuitem {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #contactme {
+        width: auto;
+        margin-top: 1rem;
+    }
+
+    #resume-options {
+        width: auto;
+    }
+
+    #resume-options hr {
+        width: auto;
+    }
+}
