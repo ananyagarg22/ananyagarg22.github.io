@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './CertificateSection.css';
-import { certificatedata } from './certificateData';
+import './certificateSection.css';
+import { certificatedata } from './certificatedata';
 import { Document, Page, pdfjs } from 'react-pdf';
 import share from '../../assets/icons/share.png';
 

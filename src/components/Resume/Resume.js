@@ -2,9 +2,9 @@ import React from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import download from '../../assets/img/download.png';
 import resume from '../../assets/AnanyaGarg_CV.pdf';
-import './Resume.css';
+import './resume.css';
 import { useState, useEffect } from 'react';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../Navbar/navbar';
 import Background from '../Background/Background';
 // import FixedSideIcons from '../../components/Fixed-side-icons/Fixed-side-icons';
 // pdfjs.GlobalWorkerOptions.workerSrc = new URL(

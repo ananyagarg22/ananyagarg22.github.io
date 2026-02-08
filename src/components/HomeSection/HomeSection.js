@@ -13,7 +13,7 @@ const HomeSection = () => {
           <span className='name'>Ananya</span>
           <br/>
           <Typewriter
-            words={['Software Developer💻;', 'Passionate Learner✨;', 'Front-end Developer👩‍💻;']}
+            words={['Product Manager📋;', 'Software Developer💻;', 'Passionate Learner✨;', 'Front-end Developer👩‍💻;']}
             loop={5}
             cursor
             cursorStyle='|'

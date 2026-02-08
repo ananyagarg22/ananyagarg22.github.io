@@ -42,6 +42,23 @@
     font-size: 1.125rem;
     cursor: pointer;
     color: white;
+    position: relative;
+}
+
+.menuitem::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.25rem;
+    width: 100%;
+    border-bottom: solid 0.188rem var(--primary-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: 0% 50%;
+}
+
+.menuitem:hover::after {
+    transform: scaleX(1);
 }
 
 #contactme {
@@ -111,31 +128,59 @@
     width: 1rem;
 }
 
-/* .menuitem::after {
-    display: block;
-    content: '';
-    border-bottom: solid 0.188rem purple;
-    transform: scaleX(0);
-    transition: transform 0.5s ease-in-out;
-    transform-origin: 0% 50%;
-} */
-
-/* .menuitem:hover::after {
-    transform: scaleX(1);
-} */
-
 .hamburger {
     display: none;
     font-size: 2rem;
     cursor: pointer;
 }
-#resume-style{
-    background-color: var(--secondary-color);
+#resume-style {
+    background: transparent;
     border: none;
     color: white;
     width: 100%;
+    padding: 0.425rem 0.625rem;
+    border-radius: 1rem;
+    font-size: 1.125rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
 
+#resume-style:hover {
+    background-color: var(--secondary-color);
+}
 
+#resume-style.rc-dropdown-open {
+    background-color: var(--secondary-color);
+}
+
+.mudit.rc-dropdown .rc-menu {
+    background-color: #141414;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(128, 0, 128, 0.2);
+    padding: 0.5rem 0;
+    min-width: 11rem;
+}
+
+.mudit.rc-dropdown .rc-menu-item,
+.mudit.rc-dropdown .rc-menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.15s ease;
+}
+
+.mudit.rc-dropdown .rc-menu-item:hover,
+.mudit.rc-dropdown .rc-menu-item-active,
+.mudit.rc-dropdown .rc-menu-item-selected {
+    background-color: var(--secondary-color);
+}
+
+.mudit.rc-dropdown .rc-menu-item-divider {
+    background-color: rgba(128, 0, 128, 0.5);
+    margin: 0.35rem 0.75rem;
 }
 /* Responsive Design */
 @media (max-width: 900px) {
