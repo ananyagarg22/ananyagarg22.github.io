@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94c3476b.css",
-    "main.js": "/static/js/main.f2bcf38a.js",
+    "main.css": "/static/css/main.8274ecb2.css",
+    "main.js": "/static/js/main.c5be06ca.js",
     "static/js/990.23fd650c.chunk.js": "/static/js/990.23fd650c.chunk.js",
     "static/js/237.88fb1333.chunk.js": "/static/js/237.88fb1333.chunk.js",
     "static/js/821.e9dd8fdc.chunk.js": "/static/js/821.e9dd8fdc.chunk.js",
@@ -26,8 +26,11 @@
     "static/media/AnanyaGarg_nontechCV.pdf": "/static/media/AnanyaGarg_nontechCV.ff3fdd3d536269669d04.pdf",
     "static/media/JPMC Software Engineering Job Simulation Certification.pdf": "/static/media/JPMC Software Engineering Job Simulation Certification.35defa967b2d88a16dba.pdf",
     "static/media/chatgpt.png": "/static/media/chatgpt.209805f954d065927de3.png",
+    "static/media/slack.png": "/static/media/slack.aa79a2047a27890a3617.png",
     "static/media/redirect.png": "/static/media/redirect.96d9ff65546c50dc2d59.png",
+    "static/media/typescript.png": "/static/media/typescript.af17108a4930310bed7a.png",
     "static/media/link.png": "/static/media/link.d1aad04f8de22083bb27.png",
+    "static/media/trello.png": "/static/media/trello.937a203fbbb0bdab0b18.png",
     "static/media/flask.svg": "/static/media/flask.002124b876aacb4794b09269c9c70a61.svg",
     "static/media/mysql.svg": "/static/media/mysql.6394bc2572c13c00cc6e48bb91629ab3.svg",
     "static/media/jupyter.svg": "/static/media/jupyter.a30a052e52442056febf9c1307c62807.svg",
@@ -43,11 +46,11 @@
     "index.html": "/index.html",
     "static/media/vuejs.svg": "/static/media/vuejs.7bc2f1c7a3dc84d2fcb4aec82ba6363c.svg",
     "static/media/tensorflow.svg": "/static/media/tensorflow.d134800405cb87bd8c207af58dff37cd.svg",
-    "main.94c3476b.css.map": "/static/css/main.94c3476b.css.map",
-    "main.f2bcf38a.js.map": "/static/js/main.f2bcf38a.js.map"
+    "main.8274ecb2.css.map": "/static/css/main.8274ecb2.css.map",
+    "main.c5be06ca.js.map": "/static/js/main.c5be06ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.94c3476b.css",
-    "static/js/main.f2bcf38a.js"
+    "static/css/main.8274ecb2.css",
+    "static/js/main.c5be06ca.js"
   ]
 }
